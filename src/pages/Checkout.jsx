@@ -88,7 +88,7 @@ const Checkoutpage = () => {
                                 </div>
                                 <div className="col-md-6">
                                     <div className="each_field mb-3">
-                                        <input type="tel" name="zipcode" placeholder="ZIP Code" pattern="\d{5}" maxLength={6} onInput={(e) => e.target.value = e.target.value.replace(/\D/g, "")} required className="w-100 rounded-2" />
+                                        <input type="tel" name="zipcode" placeholder="ZIP Code" pattern="\d{5}" maxLength={5} onInput={(e) => e.target.value = e.target.value.replace(/\D/g, "")} required className="w-100 rounded-2" />
                                     </div>
                                 </div>
                             </div>
