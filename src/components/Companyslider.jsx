@@ -4,13 +4,15 @@ import Slider from "react-slick";
 const CompanySlider = () => {
 
     let companySliderSettings = {
+        speed: 5000,
+        autoplay: true,
+        autoplaySpeed: 0,
+        cssEase: 'linear',
         dots: false,
-        autoplay: true,
         arrows: false,
-        infinite: false,
-        autoplay: true,
-        speed: 300,
-        slidesToShow: 4,
+        infinite: true,
+        // initialSlide: 1,
+        slidesToShow: 5,
         slidesToScroll: 1,
         responsive: [
             {

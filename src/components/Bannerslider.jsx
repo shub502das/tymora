@@ -7,12 +7,20 @@ const Bannerslider = () => {
     let bannerSliderSettings = {
         dots: false,
         autoplay: true,
-        arrows: false,
+        arrows: true,
         infinite: false,
         autoplay: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 575,
+                settings: {
+                    arrows: false,
+                }
+            }
+        ]
     };
 
     const bannerContent = [
@@ -32,7 +40,7 @@ const Bannerslider = () => {
             bannerbg: "/images/banner_bg3.jpg",
             bannerwatch: "/images/tissot_watch_women.png",
             bannerheading: "Classic Watches,<br> Eternal Style.",
-            
+
             bannerdescription: "Featuring sleek dials and premium materials, each timepiece is a tribute to enduring style.",
         },
     ];

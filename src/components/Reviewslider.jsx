@@ -7,7 +7,7 @@ const ReviewSlider = () => {
         dots: true,
         autoplay: true,
         arrows: false,
-        infinite: false,
+        infinite: true,
         speed: 300,
         slidesToShow: 2,
         slidesToScroll: 1,

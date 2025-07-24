@@ -19,7 +19,7 @@ const Checkoutpage = () => {
     };
 
     const generateOrderId = () => {
-        const prefix = "OD";
+        const prefix = "#OD";
         const random = Math.random().toString(36).substring(2, 8).toUpperCase();
         return `${prefix}-${random}`;
     };

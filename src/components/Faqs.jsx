@@ -21,7 +21,7 @@ const Faqs = () => {
 
     const allFaqs = [
         {
-            "question": "1. How long does your sea moss stay fresh?",
+            "question": "1. What types of watches do you sell?",
             "answer": "We offer a wide selection of watches, including automatic, quartz, mechanical, and smartwatches. Our collections range from everyday essentials to luxury timepieces."
         },
         {

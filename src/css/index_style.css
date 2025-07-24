@@ -298,6 +298,30 @@ body {
 .banner_slider .for_watch_width .banner_watch{
     max-width: 300px;
 }
+.banner_slider .slick-arrow {
+    font-size: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    /* background-color: #fff;
+    box-shadow: 1px 3px 5px #00000060; */
+    border: 0;
+    outline: 0;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%) rotate(-180deg);
+    z-index: 1;
+    background-image: url(../images/next_icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner_slider .slick-next{
+    left: unset;
+    right: 8%;
+    transform: rotate(0);
+    background-image: url(../images/next_icon.svg);
+}
 /*==================== Bestseller ====================*/
 .bestseller_sec .row{
     margin-top: 1.75rem;
